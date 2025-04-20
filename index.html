@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title from your code -->
+    <title>0mar--$alah /// Portfolio v1.0</title>
+    <!-- <link rel="icon" href="path/to/favicon.ico" type="image/x-icon"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts from your code -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Fira+Code:wght@400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Loading Screen (Your HTML) -->
+    <div id="loader">
+        <div class="loader-content">
+             <pre class="loader-text">[Booting Omar Salah's Portfolio Interface v1.0...]
+[Check Network Status..... OK]
+[Network Stack... OK]
+[Authenticating User: Omar Salah]
+[Loading Cognitive Matrix...]</pre>
+             <div class="loader-bar-container">
+                 <div class="loader-bar" id="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Effect (Your HTML) -->
+    <div id="neural-stream"></div>
+
+    <!-- Navigation (Your HTML) -->
+    <nav class="navbar" id="navbar">
+         <div class="container">
+             <div class="nav-brand"><a href="#home" title="System Root">0mar$alah</a></div>
+             <button class="menu-toggle" id="menu-toggle-button" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+            <!-- Your Nav Links -->
+             <ul class="nav-links" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-cmd="home">init--developer</a></li>
+                <li><a href="#about" class="nav-link" data-cmd="about">query--identity</a></li>
+                <li><a href="#skills" class="nav-link" data-cmd="skills">scan--matrix</a></li>
+                 <li><a href="#projects" class="nav-link" data-cmd="projects">exec--projs</a></li>
+                 <li><a href="#experiences" class="nav-link" data-cmd="exp">replay--exp</a></li>
+                 <li><a href="#blog" class="nav-link" data-cmd="blog">tail--logs</a></li>
+                 <li><a href="#contact" class="nav-link" data-cmd="contact">ping--contact</a></li>
+             </ul>
+         </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- HOME :: Entry Point (Your HTML - Unlocked) -->
+        <section id="home" data-module-name="ROOT">
+
+            <img src="./OmarSalah.jpeg"
+            alt="[Authenticated Visual: Omar Salah]"
+            class="about-image"
+            width="420" height="560">
+       <div class="image-glitch-overlay"></div>
+
+             <div class="container">
+                 <div class="intro-text">
+                     <h1><span class="prompt">//</span> Omar <span class="name">Salah</span></h1>
+                     <div class="subtitle" id="typing-effect"><span class="cursor"></span></div>
+                     <div class="cta-buttons">
+                         <!-- Update link action -->
+                         <a href="#projects" class="btn" onclick="forceUnlockAndScroll('projects'); return false;">Explore Projects <i class="fas fa-arrow-right"></i></a>
+                         <!-- Replace [LINK_TO_CV] -->
+                         <a href="[LINK_TO_CV]" class="btn" target="_blank" rel="noopener noreferrer">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                 </div>
+
+             </div>
+         </section>
+
+        <div class="ascii-divider">[ Section Separator // Buffer Flush ]</div>
+
+        <!-- ABOUT :: Identity Module (WRAPPED AND LOCKED) -->
+         <div class="section-wrapper" id="about-wrapper" data-command="./query --identity --verbose">
+             <!-- Added elements for lock -->
+             <span class="section-module-name">AUTH // ID_CORE</span>
+             <div class="section-lock-overlay">
+                 <div class="lock-prompt">Identity Verification Required. Execute: <strong>./query --identity --verbose</strong></div>
+                 <div class="command-input-wrapper">
+                     <input type="text" class="command-input" placeholder="Authentication command..." aria-label="Command to unlock About section" autocomplete="off">
+                     <button class="unlock-button">Verify</button>
+                 </div>
+                 <p class="command-error-message" aria-live="assertive"></p>
+             </div>
+             <!-- Your Original Section Content Below -->
+             <section id="about" data-module-name="IDENTITY_CORE">
+                 <div class="container">
+                    <h2 class="section-title"><span class="prompt">$</span><span class="command">./query --identity --verbose</span><span class="cursor"></span></h2>
+                    <div class="about-layout">
+                         <div class="about-image-wrapper">
+                            <img src="./OmarSalah.jpeg" alt="[Authenticated Visual: Omar Salah]" class="about-image">
+                            <div class="image-glitch-overlay"></div>
+                         </div>
+                         <div class="about-text">
+                            <p>Parsing biometric data... Identity confirmed: **Omar Salah**. A software Developer and digital craftsman operating at the intersection of logic and creativity. My function is to decode complexity and encode elegant, performant solutions.</p>
+                            <p>Primary directives include: full-stack development, system design optimization, and continuous integration of emerging technologies like <code>[AI Model Training | Serverless Architectures | WebAssembly]</code>. Driven by a core loop of learning, building, and refining.</p>
+                             <div class="terminal-block">
+                                <span class="prompt">></span> STATUS: Freelancer<br>
+                                 <span class="prompt">></span> MODE: Seeking challenging deployments<br>
+                                <span class="prompt">></span> CORE_STACK: [React | Node | Python | SQL | Docker]<br>
+                                 <span class="prompt">></span> CURRENT_FOCUS: [Full Stack Development]<br>
+                                 <span class="prompt">></span> MOTTO: "Write code that matters."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="ascii-divider">..::--== SKILL_MATRIX ==--::..</div>
+
+        <!-- SKILLS :: Capability Module (WRAPPED AND LOCKED) -->
+         <div class="section-wrapper" id="skills-wrapper" data-command="scan --capability --level=MAX">
+            <span class="section-module-name">AUTH // CAP_SCAN</span>
+             <div class="section-lock-overlay">
+                 <div class="lock-prompt">Elevated Privileges Required. Execute Scan: <strong>scan --capability --level=MAX</strong></div>
+                 <div class="command-input-wrapper">
+                     <input type="text" class="command-input" placeholder="Capability scan command..." aria-label="Command to unlock Skills section" autocomplete="off">
+                    <button class="unlock-button">Scan</button>
+                </div>
+                <p class="command-error-message" aria-live="assertive"></p>
+            </div>
+             <!-- Your Original Section Content Below -->
+             <section id="skills" data-module-name="CAPABILITY_SCAN">
+                <div class="container">
+                    <h2 class="section-title"><span class="prompt">$</span><span class="command">scan --capability --level=MAX</span><span class="cursor"></span></h2>
+                    <div class="skills-grid">
+                        <!-- Your skill categories/items -->
+                         <div class="skill-category">
+                             <h3><i class="fas fa-terminal"></i> Languages & Scripting</h3>
+                             <!-- Items need data-skill-level for JS animation -->
+                            <div class="skill-item" data-skill-level="90"> <span class="skill-name">JavaScript (ESNext)</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">90%</span> </div>
+                            <div class="skill-item" data-skill-level="85"> <span class="skill-name">Python</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">85%</span> </div>
+                            <div class="skill-item" data-skill-level="95"> <span class="skill-name">HTML5 / CSS3 (SASS/LESS)</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">95%</span> </div>
+                             <div class="skill-item" data-skill-level="80"> <span class="skill-name">SQL (PostgreSQL, MySQL)</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">80%</span> </div>
+                             <div class="skill-item" data-skill-level="70"> <span class="skill-name">C# / .NET</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">70%</span> </div>
+                             <div class="skill-item" data-skill-level="75"> <span class="skill-name">Bash / Shell Scripting</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">75%</span> </div>
+                        </div>
+                         <div class="skill-category">
+                             <h3><i class="fas fa-cubes"></i> Frameworks & Libraries</h3>
+                             <div class="skill-item" data-skill-level="90"> <span class="skill-name">React / Next.js / Redux</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">90%</span> </div>
+                             <div class="skill-item" data-skill-level="88"> <span class="skill-name">Node.js / Express / NestJS</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">88%</span> </div>
+                            <div class="skill-item" data-skill-level="70"> <span class="skill-name">ASP.NET Core / EF Core</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">70%</span> </div>
+                             <div class="skill-item" data-skill-level="65"> <span class="skill-name">Django / Flask</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">65%</span> </div>
+                             <div class="skill-item" data-skill-level="85"> <span class="skill-name">Tailwind CSS / MUI</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">85%</span> </div>
+                         </div>
+                         <div class="skill-category">
+                            <h3><i class="fas fa-database"></i> Databases & Cloud</h3>
+                             <div class="skill-item" data-skill-level="85"> <span class="skill-name">PostgreSQL / MySQL</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">85%</span> </div>
+                            <div class="skill-item" data-skill-level="75"> <span class="skill-name">MongoDB / NoSQL Concepts</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">75%</span> </div>
+                            <div class="skill-item" data-skill-level="70"> <span class="skill-name">AWS (EC2, S3, Lambda, RDS)</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">70%</span> </div>
+                            <div class="skill-item" data-skill-level="75"> <span class="skill-name">Docker / Kubernetes Basics</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">75%</span> </div>
+                             <div class="skill-item" data-skill-level="60"> <span class="skill-name">Firebase</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">60%</span> </div>
+                         </div>
+                         <div class="skill-category">
+                            <h3><i class="fas fa-wrench"></i> Tools & Concepts</h3>
+                            <div class="skill-item" data-skill-level="95"> <span class="skill-name">Git / GitHub / GitLab</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">95%</span> </div>
+                            <div class="skill-item" data-skill-level="70"> <span class="skill-name">CI/CD (Jenkins, GitHub Actions)</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">70%</span> </div>
+                            <div class="skill-item" data-skill-level="85"> <span class="skill-name">Agile/Scrum Methodology</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">85%</span> </div>
+                             <div class="skill-item" data-skill-level="90"> <span class="skill-name">RESTful APIs / GraphQL</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">90%</span> </div>
+                             <div class="skill-item" data-skill-level="80"> <span class="skill-name">Unit & Integration Testing</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">80%</span> </div>
+                             <div class="skill-item" data-skill-level="75"> <span class="skill-name">Linux / System Administration</span> <div class="skill-gauge"><div class="skill-gauge-fill" style="--level: 0;"></div><div class="skill-gauge-cover"></div></div><span class="skill-gauge-value">75%</span> </div>
+                        </div>
+                     </div>
+                 </div>
+            </section>
+        </div>
+
+        <div class="ascii-divider">//===[ PROJECT DIRECTORY LISTING ]===//</div>
+
+        <!-- PROJECTS :: Executable Module (WRAPPED AND LOCKED) -->
+        <div class="section-wrapper" id="projects-wrapper" data-command="ls ./projects -l | grep *.bin">
+            <span class="section-module-name">AUTH // PROJ_REG</span>
+             <div class="section-lock-overlay">
+                <div class="lock-prompt">Access Denied. Execute Project Directory Command: <strong>ls ./projects -l | grep *.bin</strong></div>
+                <div class="command-input-wrapper">
+                    <input type="text" class="command-input" placeholder="Project listing command..." aria-label="Command to unlock Projects section" autocomplete="off">
+                    <button class="unlock-button">List Dir</button>
+                 </div>
+                 <p class="command-error-message" aria-live="assertive"></p>
+             </div>
+             <!-- Your Original Section Content Below -->
+             <section id="projects" data-module-name="PROJECT_REGISTRY">
+                 <div class="container">
+                     <h2 class="section-title"><span class="prompt">$</span><span class="command">ls ./projects -l | grep *.bin</span><span class="cursor"></span></h2>
+                     <div class="projects-grid">
+                        <!-- Your Project Cards -->
+                        <div class="project-card" data-category="web api"> <div class="project-thumbnail"> <img src="./OmarSalah.jpeg" alt="Neural Net Viz"> </div> <div class="project-card-content"> <h3>Project Neuron Visualizer</h3> <div class="project-tags"><code>React</code><code>D3.js</code><code>WebSockets</code><code>Python</code></div> <p>Real-time visualization of a simple neural network training process. Data streamed via WebSockets.</p> <button class="btn open-modal" data-modal-id="modal-project-1">Details <i class="fas fa-search-plus"></i></button> <a href="[LINK_TO_CODE_1]" target="_blank" rel="noopener noreferrer" class="btn">Source <i class="fab fa-github"></i></a> </div> </div>
+                        <div class="project-card" data-category="api tool"> <div class="project-thumbnail"> <img src="./OmarSalah.jpeg" alt="Log Parser Utility"> </div> <div class="project-card-content"> <h3>Log Aggregator Service</h3> <div class="project-tags"><code>Go</code><code>Docker</code><code>gRPC</code><code>Elasticsearch</code></div> <p>High-performance log processing service using gRPC for ingestion and Elasticsearch for indexing/search.</p> <button class="btn open-modal" data-modal-id="modal-project-2">Details <i class="fas fa-search-plus"></i></button> <a href="[LINK_TO_CODE_2]" target="_blank" rel="noopener noreferrer" class="btn">Source <i class="fab fa-github"></i></a> </div> </div>
+                         <div class="project-card" data-category="web"> <div class="project-thumbnail"> <img src="./OmarSalah.jpeg" alt="Previous Portfolio"> </div> <div class="project-card-content"> <h3>Codex Terminal v2</h3> <div class="project-tags"><code>HTML</code><code>CSS</code><code>JavaScript</code></div> <p>The previous iteration of this portfolio concept, exploring CSS animations and terminal aesthetics.</p> <button class="btn open-modal" data-modal-id="modal-project-3">Details <i class="fas fa-search-plus"></i></button> <a href="[LINK_TO_CODE_3]" target="_blank" rel="noopener noreferrer" class="btn">Source <i class="fab fa-github"></i></a> </div> </div>
+                     </div>
+                 </div>
+             </section>
+         </div>
+
+        <div class="ascii-divider">{"timestamp": <span class="dynamic-timestamp" data-format="ms"></span>, "event": "EXPERIENCE_LOG_READ"}</div>
+
+         <!-- EXPERIENCE :: Log Replay Module (WRAPPED AND LOCKED) -->
+         <div class="section-wrapper" id="experiences-wrapper" data-command='git log --since="genesis"'>
+             <span class="section-module-name">AUTH // HIST_LOG</span>
+            <div class="section-lock-overlay">
+                <div class="lock-prompt">Protected Log Files. Execute History Replay Command: <strong>git log --since="genesis"</strong></div>
+                <div class="command-input-wrapper">
+                     <input type="text" class="command-input" placeholder="Git log command..." aria-label="Command to unlock Experience section" autocomplete="off">
+                     <button class="unlock-button">Replay Log</button>
+                </div>
+                 <p class="command-error-message" aria-live="assertive"></p>
+            </div>
+            <!-- Your Original Section Content Below -->
+             <section id="experiences" data-module-name="HISTORY_LOG">
+                 <div class="container">
+                    <h2 class="section-title"><span class="prompt">$</span><span class="command">git log --since="genesis"</span><span class="cursor"></span></h2>
+                    <div class="timeline">
+                        <!-- Your timeline items -->
+                        <div class="timeline-item timeline-right"> <div class="timeline-content"> <h3>Lead Software Engineer</h3> <span class="date">Quantum Dynamics Corp | 2022 - Present</span> <p>Architecting scalable backend systems, mentoring junior engineers, driving CI/CD adoption, leading development for Project Chimera using microservices.</p> </div> </div>
+                        <div class="timeline-item timeline-left"> <div class="timeline-content"> <h3>Software Developer</h3> <span class="date">Cybernetics Inc. | 2020 - 2022</span> <p>Full-stack development on core platform products (React, Node.js, Postgres). Implemented key features, improved API performance by 30%.</p> </div> </div>
+                         <div class="timeline-item timeline-right"> <div class="timeline-content"> <h3>B.Eng. Software Engineering</h3> <span class="date">Institute of Technology | 2016 - 2020</span> <p>Graduated Summa Cum Laude. Focused on distributed systems & machine learning. President of the Competitive Programming Club.</p> </div> </div>
+                     </div>
+                 </div>
+            </section>
+        </div>
+
+         <div class="ascii-divider short">-=-=-=-DEV_LOGS=-=-=-=-</div>
+
+        <!-- BLOG :: Log Entries (WRAPPED AND LOCKED) -->
+        <div class="section-wrapper" id="blog-wrapper" data-command="tail -f /var/log/dev.log">
+            <span class="section-module-name">AUTH // DEV_LOGS</span>
+            <div class="section-lock-overlay">
+                <div class="lock-prompt">Live Log Tailing Requires Permission. Command: <strong>tail -f /var/log/dev.log</strong></div>
+                 <div class="command-input-wrapper">
+                    <input type="text" class="command-input" placeholder="Log access command..." aria-label="Command to unlock Blog section" autocomplete="off">
+                     <button class="unlock-button">Tail Logs</button>
+                 </div>
+                <p class="command-error-message" aria-live="assertive"></p>
+             </div>
+            <!-- Your Original Section Content Below -->
+             <section id="blog" data-module-name="DEV_LOGS">
+                <div class="container">
+                    <h2 class="section-title"><span class="prompt">$</span><span class="command">tail -f /var/log/dev.log</span><span class="cursor"></span></h2>
+                    <div class="blog-grid">
+                         <!-- Your blog entry cards -->
+                        <div class="blog-entry-card open-modal" data-modal-id="modal-blog-1"> <div class="log-timestamp">[2024-03-10 15:30:05]</div> <h3>Debugging Asynchronous Nightmares</h3> <p class="log-excerpt">Race conditions in Node.js can feel like chasing ghosts. Explored techniques using Async Hooks and structured logging...</p> <span class="read-more">Read Entry »</span> </div>
+                        <div class="blog-entry-card open-modal" data-modal-id="modal-blog-2"> <div class="log-timestamp">[2024-02-21 11:15:42]</div> <h3>The Case for Plain SQL</h3> <p class="log-excerpt">ORMs are convenient, but sometimes writing raw, optimized SQL is necessary for peak performance. A look at query tuning...</p> <span class="read-more">Read Entry »</span> </div>
+                         <div class="blog-entry-card open-modal" data-modal-id="modal-blog-3"> <div class="log-timestamp">[2024-01-15 09:00:11]</div> <h3>Setting Up a CI/CD Pipeline with GitHub Actions</h3> <p class="log-excerpt">Automating the build, test, and deployment process is crucial. Walkthrough of setting up a basic pipeline for a web app...</p> <span class="read-more">Read Entry »</span> </div>
+                     </div>
+                 </div>
+             </section>
+         </div>
+
+        <div class="ascii-divider short">-=-=-=-INBOUND_DATA=-=-=-=-</div>
+
+        <!-- TESTIMONIALS :: Data Packet Ingest (WRAPPED AND LOCKED) -->
+         <div class="section-wrapper" id="testimonials-wrapper" data-command="nc -l -p 8080 < data_feed">
+            <span class="section-module-name">AUTH // FEEDBACK_RX</span>
+            <div class="section-lock-overlay">
+                 <div class="lock-prompt">Initiate Network Listener for Data Feed. Command: <strong>nc -l -p 8080 < data_feed</strong></div>
+                 <div class="command-input-wrapper">
+                     <input type="text" class="command-input" placeholder="Network command..." aria-label="Command to unlock Testimonials section" autocomplete="off">
+                     <button class="unlock-button">Listen</button>
+                </div>
+                 <p class="command-error-message" aria-live="assertive"></p>
+            </div>
+            <!-- Your Original Section Content Below -->
+            <section id="testimonials" data-module-name="EXTERNAL_FEEDBACK">
+                <div class="container">
+                     <h2 class="section-title"><span class="prompt">$</span><span class="command">nc -l -p 8080 < data_feed</span><span class="cursor"></span></h2>
+                    <!-- Your testimonial packets -->
+                     <div class="testimonial-packet"> <blockquote class="testimonial-quote"> Omar is a rare talent - technically brilliant, communicative, and incredibly reliable. He architected a solution that exceeded all expectations. </blockquote> <cite class="testimonial-author">Jane Doe <span>CEO, Example Startup</span></cite> </div>
+                     <div class="testimonial-packet"> <blockquote class="testimonial-quote"> Working with Omar on the backend integration was seamless. His understanding of complex systems and clean code practices is top-notch. </blockquote> <cite class="testimonial-author">John Smith <span>Lead Architect, Tech Corp</span></cite> </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="ascii-divider short">-=-=-=-CERT_REGISTRY=-=-=-=-</div>
+
+        <!-- CERTIFICATIONS :: Registry Module (WRAPPED AND LOCKED) -->
+         <div class="section-wrapper" id="certifications-wrapper" data-command="cat /etc/certs.list">
+             <span class="section-module-name">AUTH // CERT_REG</span>
+             <div class="section-lock-overlay">
+                <div class="lock-prompt">Secure Registry Access Required. Command: <strong>cat /etc/certs.list</strong></div>
+                 <div class="command-input-wrapper">
+                     <input type="text" class="command-input" placeholder="Certificate listing command..." aria-label="Command to unlock Certifications section" autocomplete="off">
+                     <button class="unlock-button">View Certs</button>
+                </div>
+                 <p class="command-error-message" aria-live="assertive"></p>
+            </div>
+             <!-- Your Original Section Content Below -->
+             <section id="certifications" data-module-name="CERT_REGISTRY">
+                 <div class="container">
+                    <h2 class="section-title"><span class="prompt">$</span><span class="command">cat /etc/certs.list</span><span class="cursor"></span></h2>
+                     <ul class="cert-list">
+                         <!-- Your certification items -->
+                        <li class="cert-item"> <h4>AWS Certified Solutions Architect – Associate</h4> <div class="cert-issuer">Amazon Web Services</div> <div class="cert-date">Issued: 2023 | Expires: 2026 <a href="[LINK_TO_VERIFICATION_1]" class="cert-link" target="_blank" rel="noopener noreferrer">[Verify]</a></div> </li>
+                         <li class="cert-item"> <h4>Certified Kubernetes Application Developer (CKAD)</h4> <div class="cert-issuer">The Linux Foundation</div> <div class="cert-date">Issued: 2022 <a href="[LINK_TO_VERIFICATION_2]" class="cert-link" target="_blank" rel="noopener noreferrer">[Verify]</a></div> </li>
+                        <li class="cert-item"> <h4>[Another Certification Title]</h4> <div class="cert-issuer">[Issuing Body]</div> <div class="cert-date">Issued: [Year] <a href="[LINK_TO_VERIFICATION_3]" class="cert-link" target="_blank" rel="noopener noreferrer">[Verify]</a></div> </li>
+                     </ul>
+                 </div>
+             </section>
+         </div>
+
+        <div class="ascii-divider">[[ ESTABLISHING SECURE CONTACT CHANNEL ]]</div>
+
+        <!-- CONTACT :: Comms Module (WRAPPED AND LOCKED) -->
+        <div class="section-wrapper" id="contact-wrapper" data-command="ssh omar@contact.interface --init">
+            <span class="section-module-name">AUTH // COMMS_IF</span>
+             <div class="section-lock-overlay">
+                 <div class="lock-prompt">Open Secure Communication Channel. Command: <strong>ssh omar@contact.interface --init</strong></div>
+                <div class="command-input-wrapper">
+                    <input type="text" class="command-input" placeholder="Connection command..." aria-label="Command to unlock Contact section" autocomplete="off">
+                    <button class="unlock-button">Connect</button>
+                </div>
+                <p class="command-error-message" aria-live="assertive"></p>
+             </div>
+            <!-- Your Original Section Content Below -->
+            <section id="contact" data-module-name="COMMS_INTERFACE">
+                <div class="container">
+                    <div class="contact-methods">
+                         <h2 class="section-title"><span class="prompt">$</span><span class="command">ifconfig -a | grep contact</span><span class="cursor"></span></h2>
+                        <h3>Direct Channels:</h3>
+                        <!-- Your contact methods -->
+                         <div class="method-item"><i class="fas fa-envelope-open-text"></i> <a href="mailto:[YOUR_EMAIL]">[YOUR_EMAIL]</a></div>
+                         <div class="method-item"><i class="fab fa-linkedin"></i> <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer">/in/omar-salah-dev</a></div>
+                         <div class="method-item"><i class="fab fa-github"></i> <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer">/in/omar-salah-dev</a></div>
+                         <div class="method-item"><i class="fab fa-facebook"></i> <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer">/in/omar-salah-dev</a></div>
+                         <div class="method-item"><i class="fab fa-instagram"></i> <a href="[YOUR_GITHUB_URL]" target="_blank" rel="noopener noreferrer">/OmarSalahCode</a></div>
+                        <div class="method-item"><i class="fas fa-file-pdf"></i> <a href="[LINK_TO_CV]" target="_blank" rel="noopener noreferrer">Access Secure Resume [PDF]</a></div>
+                     </div>
+                    <div class="contact-form terminal-border">
+                         <h3>Transmit Secure Message:</h3>
+                         <!-- Your form -->
+                         <form id="contact-form" action="https://formspree.io/f/[YOUR_FORM_ID]" method="POST">
+                            <div class="form-group"><label for="name">SENDER_ID:</label><input type="text" id="name" name="name" required autocomplete="name"></div>
+                            <div class="form-group"><label for="email">RETURN_PATH:</label><input type="email" id="email" name="email" required autocomplete="email"></div>
+                            <div class="form-group"><label for="subject">PACKET_HEADER:</label><input type="text" id="subject" name="subject" autocomplete="off"></div>
+                            <div class="form-group"><label for="message">ENCRYPTED_PAYLOAD:</label><textarea id="message" name="message" rows="5" required></textarea></div>
+                             <button type="submit" class="btn">Initiate Transfer <i class="fas fa-satellite-dish"></i></button>
+                         </form>
+                         <div id="form-status"></div> <!-- Status message area -->
+                    </div>
+                 </div>
+             </section>
+         </div>
+
+    </main>
+
+    <!-- FOOTER :: Shutdown Sequence (Your HTML) -->
+    <footer>
+         <div class="container">
+            <div class="social-links">
+                 <!-- Your Social Links -->
+                 <a href="[YOUR_GITHUB_URL]" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                 <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+
+             </div>
+            <p class="copyright">Omar Salah Interface v3.0 // System stable. Connection closing.</p>
+        </div>
+    </footer>
+
+     <!-- MODAL WINDOWS (Your HTML) -->
+     <!-- Project Modals -->
+     <div id="modal-project-1" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">[Project Title 1: Neuron Viz]</h3> <div class="modal-body"> <img src="./OmarSalah.jpeg" alt="Detailed view"> <h4>Overview</h4> <p>...</p> <h4>Technologies Used</h4> <p><code>...</code></p><h4>Links</h4> <p><a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">Source Code</a></p> </div> </div> </div>
+     <div id="modal-project-2" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">[Project Title 2: Log Aggregator]</h3> <div class="modal-body"> <p>...</p> <pre><code>...</code></pre> </div> </div> </div>
+    <div id="modal-project-3" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">[Project Title 3: Codex Terminal V2]</h3> <div class="modal-body"> <p>...</p> </div> </div> </div>
+     <!-- Blog Modals -->
+    <div id="modal-blog-1" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">Debugging Asynchronous Nightmares</h3> <div class="modal-body"> <p>...</p> <pre><code>...</code></pre> </div> </div> </div>
+    <div id="modal-blog-2" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">The Case for Plain SQL</h3> <div class="modal-body"> <p>...</p> </div> </div> </div>
+    <div id="modal-blog-3" class="modal"> <div class="modal-content"> <button class="modal-close" aria-label="Close modal">×</button> <h3 class="modal-title">Setting Up a CI/CD Pipeline</h3> <div class="modal-body"> <p>...</p> </div> </div> </div>
+
+     <!-- === Link to JavaScript Section === -->
+     <script src="script.js"></script>
+
+</body>
+</html>
